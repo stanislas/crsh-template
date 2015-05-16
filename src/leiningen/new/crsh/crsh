@@ -1,0 +1,5 @@
+{{=<% %>=}}
+#!{{crsh-shell}}
+
+exec {{crsh-java}} -jar {{target-path}}/{{name}}-{{version}}-standalone.jar "$@"
+<%={{ }}=%>
