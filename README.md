@@ -4,7 +4,7 @@ A Leiningen template for FIXME.
 
 ## Usage
 
-
+[![Clojars Project](http://clojars.org/crsh/lein-template/latest-version.svg)](http://clojars.org/crsh/lein-template)
 
 ## License
 
