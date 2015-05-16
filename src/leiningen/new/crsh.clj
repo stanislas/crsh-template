@@ -14,5 +14,5 @@
              [".gitignore" (render "gitignore" data)]
              ["README.md" (render "README.md" data)]
              ["project.clj" (render "project.clj" data)]
-             ["resources/crsh" (render "crsh" data) :executable true]
+             [(str "resources/" name) (render "crsh" data) :executable true]
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)])))
