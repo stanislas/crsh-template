@@ -12,6 +12,7 @@
   :resource {
              :resource-paths ["resources"]
              :target-path    "target/bin"
-             :extra-values   {:crsh-shell "/bin/sh"
+             :extra-values   {
+                              :crsh-shell "/bin/sh"
                               :crsh-java  "drip"}
              })
